@@ -6,6 +6,10 @@
   @apply mx-auto max-w-[1440px];
 }
 
+.padding-container {
+  @apply 2xl:px-0 px-10;
+}
+
 .font-body-small {
   font-size: 14px;
   line-height: 20 / 14;

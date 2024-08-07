@@ -23,16 +23,14 @@ const navigations: Array<NavigationBarProps> = [
 const MainSection = () => {
   return (
     <>
-      <div className="relative">
-        <div className="max-container padding-container flex flex-col">
-          <Navbar className="relative z-10" />
-          <div className="relative z-10 flex h-screen flex-col gap-8 lg:flex-row lg:py-[72px]">
-            <InstructionSection />
-            <MockupSection />
-          </div>
+      <div className="max-container padding-container flex flex-col">
+        <Navbar className="z-10" />
+        <div className="z-10 flex flex-col gap-8 lg:flex-row lg:py-[72px]">
+          <InstructionSection />
+          <MockupSection />
         </div>
-        <img src={background} className="absolute top-0 z-0 h-screen w-full" />
       </div>
+      <img src={background} className="absolute top-0 z-0 h-screen w-full" />
     </>
   );
 };
@@ -68,7 +66,7 @@ function Navbar({ className }: { className?: string }) {
 
 const InstructionSection = () => {
   return (
-    <div className="flex w-full flex-col py-10 pr-12 md:py-20 lg:w-[55%] lg:py-24">
+    <div className="flex flex-col py-10 pr-12 md:py-20 lg:w-[55%] lg:py-24">
       <h1 className="text-4xl font-bold leading-tight -tracking-wide text-neutral-900 md:text-5xl lg:text-6xl">
         The easiest way to manage projects
       </h1>
@@ -89,8 +87,8 @@ const InstructionSection = () => {
 
 const MockupSection = () => {
   return (
-    <div className="flex h-full w-full justify-center lg:w-[45%]">
-      <img src={mockup} />
+    <div className="mx-20 self-center">
+      <img src={mockup} className="h-[640px] w-[320px]" />
     </div>
   );
 };

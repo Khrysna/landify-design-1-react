@@ -30,7 +30,7 @@ const MainSection = () => {
           <MockupSection />
         </div>
       </div>
-      <img src={background} className="absolute top-0 z-0 min-h-full w-full" />
+      <img src={background} className="absolute top-0 z-0 h-[880px] w-full" />
     </>
   );
 };

@@ -19,16 +19,13 @@ function Navbar({ className }: { className?: string }) {
   return (
     <>
       <div
-        className={twMerge(
-          className,
-          "flex h-20 items-center justify-between padding-container"
-        )}
+        className={twMerge(className, "flex h-20 items-center justify-between")}
       >
         <div className="flex">
           <img src={logo} className="h-[32px] w-[128px] mr-8" />
-          <ul className="lg:flex gap-2 hidden">
+          <ul className="lg:flex gap-2 hidden items-center">
             {navigations.map((navigation) => (
-              <li className="py-1 px-2 font-body-small font-semibold">
+              <li className="py-1 px-2 text-sm font-semibold text-neutral-900">
                 {navigation.title}
               </li>
             ))}

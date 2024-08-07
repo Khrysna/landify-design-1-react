@@ -22,21 +22,21 @@ function Navbar({ className }: { className?: string }) {
         className={twMerge(className, "flex h-20 items-center justify-between")}
       >
         <div className="flex">
-          <img src={logo} className="h-[32px] w-[128px] mr-8" />
-          <ul className="lg:flex gap-2 hidden items-center">
+          <img src={logo} className="mr-8 h-[32px] w-[128px]" />
+          <ul className="hidden items-center gap-2 lg:flex">
             {navigations.map((navigation) => (
-              <li className="py-1 px-2 text-sm font-semibold text-neutral-900">
+              <li className="px-2 py-1 text-sm font-semibold text-neutral-900">
                 {navigation.title}
               </li>
             ))}
           </ul>
         </div>
-        <div className="flex gap-3 items-center">
+        <div className="flex items-center gap-3">
           <img
             src={googleplay}
-            className="h-[40px] w-[136px] hidden md:block"
+            className="hidden h-[40px] w-[136px] md:block"
           />
-          <img src={appstore} className="h-[40px] w-[136px] hidden md:block" />
+          <img src={appstore} className="hidden h-[40px] w-[136px] md:block" />
           <RxHamburgerMenu size={24} className="m-4 lg:hidden" />
         </div>
       </div>

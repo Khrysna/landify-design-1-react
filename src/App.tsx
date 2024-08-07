@@ -7,33 +7,33 @@ function App() {
   return (
     <>
       <div className="relative">
-        <div className="flex flex-col max-container padding-container">
+        <div className="max-container padding-container flex flex-col">
           <Navbar className="relative z-10" />
-          <div className="flex flex-col relative z-10 h-screen lg:py-[72px] lg:flex-row">
-            <div className="flex flex-col flex-none w-full lg:w-[55%] mr-8 pr-12 py-10 md:py-20 lg:py-24">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-neutral-900 -tracking-wide leading-tight">
+          <div className="relative z-10 flex h-screen flex-col lg:flex-row lg:py-[72px]">
+            <div className="mr-8 flex w-full flex-none flex-col py-10 pr-12 md:py-20 lg:w-[55%] lg:py-24">
+              <h1 className="text-4xl font-bold leading-tight -tracking-wide text-neutral-900 md:text-5xl lg:text-6xl">
                 The easiest way to manage projects
               </h1>
-              <p className="text-lg font-normal mt-4 text-neutral-700">
+              <p className="mt-4 text-lg font-normal text-neutral-700">
                 From the small stuff to the big picture, organizes the work so
                 teams know what to do, why it matters, and how to get it done.
               </p>
-              <div className="flex mt-8 gap-4">
-                <button className="bg-primary-600 rounded-lg py-4 px-6 text-white text-base font-semibold ">
+              <div className="mt-8 flex gap-4">
+                <button className="rounded-lg bg-primary-600 px-6 py-4 text-base font-semibold text-white">
                   Get Started
                 </button>
-                <button className="py-4 px-6 text-primary-600 text-base font-semibold flex items-center">
-                  <FiPlayCircle size={24} className="text-primary-600 mr-2" />{" "}
+                <button className="flex items-center px-6 py-4 text-base font-semibold text-primary-600">
+                  <FiPlayCircle size={24} className="mr-2 text-primary-600" />{" "}
                   Watch Video
                 </button>
               </div>
             </div>
-            <div className="flex flex-none lg:w-[45%] w-full h-full justify-center">
+            <div className="flex h-full w-full flex-none justify-center lg:w-[45%]">
               <img src={mockup} />
             </div>
           </div>
         </div>
-        <img src={background} className="w-full h-screen z-0 absolute top-0" />
+        <img src={background} className="absolute top-0 z-0 h-screen w-full" />
       </div>
     </>
   );

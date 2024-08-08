@@ -8,8 +8,11 @@ export default {
       },
       colors: {
         "neutral-700": "#374151",
+        "neutral-500": "#6B7280",
         "neutral-900": "#111827",
         "primary-600": "#7C3AED",
+        "secondary-100": "#D5FAFC",
+        "secondary-600": "#1DB5BE",
       },
     },
   },

@@ -49,8 +49,8 @@ const AchivementItem = ({ achivement }: { achivement: AchivementProps }) => {
 const AchivementsSection = () => {
   return (
     <div className="max-container padding-container w-full">
-      <div className="my-20 flex flex-col justify-between gap-8 lg:flex-row">
-        <div className="flex flex-col gap-2 py-3">
+      <div className="my-20 flex flex-col justify-between gap-8 lg:flex-row lg:items-center">
+        <div className="flex flex-col gap-2">
           <h1 className="text-4xl font-extrabold text-neutral-900 lg:text-5xl lg:leading-[60px] lg:-tracking-wide">
             Our 18 years of achivements
           </h1>

@@ -1,11 +1,11 @@
-import AchivementsSection from "./components/AchivementsSection";
-import CompaniesSection from "./components/CompaniesSection";
-import FeaturesSection from "./components/FeaturesSection";
-import FooterSection from "./components/FooterSection";
-import GetAppSection from "./components/GetAppSections";
-import IntegrationsSection from "./components/IntegrationsSection";
+import AchivementsSection from "./sections/AchivementsSection";
+import CompaniesSection from "./sections/CompaniesSection";
+import FeaturesSection from "./sections/FeaturesSection";
+import FooterSection from "./sections/FooterSection";
+import GetAppSection from "./sections/GetAppSections";
+import IntegrationsSection from "./sections/IntegrationsSection";
 import MainSection from "./components/MainSection";
-import StoriesSection from "./components/StoriesSection";
+import StoriesSection from "./sections/StoriesSection";
 
 function App() {
   return (

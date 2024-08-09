@@ -16,10 +16,10 @@ const GetAppSection = () => {
             and complete tasks without procastinating. Stay on track and
             complete on time!
           </p>
-          <p className="mt-12 text-lg font-medium text-neutral-900">
+          <p className="mt-10 text-lg font-medium text-neutral-900">
             Get the App
           </p>
-          <div className="mt-2 flex gap-3">
+          <div className="flex gap-3">
             <img src={googleplay} className="h-[40px]" />
             <img src={appstore} className="h-[40px]" />
           </div>

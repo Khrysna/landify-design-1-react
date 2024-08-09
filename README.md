@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# Landify Design 1 - React Implementation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![License](https://img.shields.io/badge/license-MIT-green)
 
-Currently, two official plugins are available:
+This project is a React implementation of the Landify Landing Page UI Kit. The UI design was provided by the Figma community and has been sliced and converted into a functional web application using React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
 
-## Expanding the ESLint configuration
+### Desktop Version
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![Desktop Screenshot 1](landify-design-1-react/mockups/mockup1.png)
+![Desktop Screenshot 2](landify-design-1-react/mockups/mockup2.png)
 
-- Configure the top-level `parserOptions` property like this:
+### Mobile Version
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![Mobile Screenshot 1](landify-design-1-react/mockups/mockup3.png)
+![Mobile Screenshot 2](landify-design-1-react/mockups/mockup4.png)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🎨 Design Reference
+
+This project is based on the [Landify - Landing Page UI Kit v2](<https://www.figma.com/design/088L8rIAnc29ArpVGDNG5y/Landify---Landing-Page-UI-Kit-v2-(Community)?node-id=1973-6598&t=KM6f0RjBK3Yq0WT8-0>) from Figma Community.
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## ✨ Acknowledgments
+
+- Thanks to the Figma community for providing the Landify UI Kit.

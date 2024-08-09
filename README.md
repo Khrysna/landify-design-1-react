@@ -4,6 +4,10 @@
 
 This project is a React implementation of the Landify Landing Page UI Kit. The UI design was provided by the Figma community and has been sliced and converted into a functional web application using React.
 
+## 🎨 Design Reference
+
+This project is based on the [Landify - Landing Page UI Kit v2](<https://www.figma.com/design/088L8rIAnc29ArpVGDNG5y/Landify---Landing-Page-UI-Kit-v2-(Community)?node-id=1973-6598&t=KM6f0RjBK3Yq0WT8-0>) from Figma Community.
+
 ## 📸 Screenshots
 
 ### Desktop Version
@@ -17,10 +21,6 @@ This project is a React implementation of the Landify Landing Page UI Kit. The U
   <img src="./screenshots/mobile-1.png" alt="Mobile Screenshot 1" width="49%" />
   <img src="./screenshots/mobile-2.png" alt="Mobile Screenshot 2" width="49%" />
 </p>
-
-## 🎨 Design Reference
-
-This project is based on the [Landify - Landing Page UI Kit v2](<https://www.figma.com/design/088L8rIAnc29ArpVGDNG5y/Landify---Landing-Page-UI-Kit-v2-(Community)?node-id=1973-6598&t=KM6f0RjBK3Yq0WT8-0>) from Figma Community.
 
 ## 📄 License
 

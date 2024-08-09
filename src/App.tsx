@@ -4,7 +4,7 @@ import FeaturesSection from "./sections/FeaturesSection";
 import FooterSection from "./sections/FooterSection";
 import GetAppSection from "./sections/GetAppSections";
 import IntegrationsSection from "./sections/IntegrationsSection";
-import MainSection from "./components/MainSection";
+import MainSection from "./sections/MainSection";
 import StoriesSection from "./sections/StoriesSection";
 
 function App() {

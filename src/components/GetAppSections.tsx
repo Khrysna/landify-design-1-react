@@ -1,5 +1,7 @@
 import mockup2 from "../assets/mockup2.png";
 import mockup3 from "../assets/mockup3.png";
+import googleplay from "../assets/googleplay.png";
+import appstore from "../assets/appstore.png";
 
 const GetAppSection = () => {
   return (
@@ -14,6 +16,13 @@ const GetAppSection = () => {
             and complete tasks without procastinating. Stay on track and
             complete on time!
           </p>
+          <p className="mt-12 text-lg font-medium text-neutral-900">
+            Get the App
+          </p>
+          <div className="mt-2 flex gap-3">
+            <img src={googleplay} className="h-[40px]" />
+            <img src={appstore} className="h-[40px]" />
+          </div>
         </div>
         <div className="flex flex-col items-center justify-between px-8 md:flex-row">
           <img src={mockup2} className="max-w-[232px] md:mb-[174px]" />

@@ -28,10 +28,6 @@ This project is based on the [Landify - Landing Page UI Kit v2](<https://www.fig
   <img src="./screenshots/mobile-2.png" alt="Mobile Screenshot 2" width="49%" />
 </p>
 
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
 ## ✨ Acknowledgments
 
 - Thanks to the Figma community for providing the Landify UI Kit.

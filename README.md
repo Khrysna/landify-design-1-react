@@ -13,8 +13,10 @@ This project is a React implementation of the Landify Landing Page UI Kit. The U
 
 ### Mobile Version
 
-![Mobile Screenshot 1](./mockups/mockup3.png)
-![Mobile Screenshot 2](./mockups/mockup4.png)
+<p align="center">
+  <img src="./screenshots/mobile-1.png" alt="Mobile Screenshot 1" width="45%" />
+  <img src="./screenshots/mobile-2.png" alt="Mobile Screenshot 2" width="45%" />
+</p>
 
 ## 🎨 Design Reference
 

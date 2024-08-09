@@ -34,10 +34,10 @@ const achivements = [
 
 const AchivementItem = ({ achivement }: { achivement: AchivementProps }) => {
   return (
-    <div className="flex min-w-[280px] items-center gap-4">
+    <div className="flex items-center gap-4 xl:w-[280px]">
       <img src={achivement.icon} className="h-[32px] w-[32px]" />
       <div className="flex flex-col">
-        <p className="text-2xl font-bold leading-[45px] -tracking-wide text-neutral-900 md:text-3xl lg:text-4xl">
+        <p className="text-2xl font-bold leading-[45px] -tracking-wide text-neutral-900 lg:text-3xl xl:text-4xl">
           {achivement.title}
         </p>
         <p className="text-base text-neutral-900">{achivement.description}</p>

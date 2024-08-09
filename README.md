@@ -8,13 +8,13 @@ This project is a React implementation of the Landify Landing Page UI Kit. The U
 
 ### Desktop Version
 
-![Desktop Screenshot 1](landify-design-1-react/mockups/mockup1.png)
-![Desktop Screenshot 2](landify-design-1-react/mockups/mockup2.png)
+![Desktop Screenshot 1](./mockups/mockup1.png)
+![Desktop Screenshot 2](./mockups/mockup2.png)
 
 ### Mobile Version
 
-![Mobile Screenshot 1](landify-design-1-react/mockups/mockup3.png)
-![Mobile Screenshot 2](landify-design-1-react/mockups/mockup4.png)
+![Mobile Screenshot 1](./mockups/mockup3.png)
+![Mobile Screenshot 2](./mockups/mockup4.png)
 
 ## 🎨 Design Reference
 

@@ -1,6 +1,7 @@
 import AchivementsSection from "./components/AchivementsSection";
 import CompaniesSection from "./components/CompaniesSection";
 import FeaturesSection from "./components/FeaturesSection";
+import FooterSection from "./components/FooterSection";
 import GetAppSection from "./components/GetAppSections";
 import IntegrationsSection from "./components/IntegrationsSection";
 import MainSection from "./components/MainSection";
@@ -16,6 +17,7 @@ function App() {
       <AchivementsSection />
       <IntegrationsSection />
       <GetAppSection />
+      <FooterSection />
     </div>
   );
 }

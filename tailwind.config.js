@@ -7,6 +7,7 @@ export default {
         inter: ["Inter", "sans-serif"],
       },
       colors: {
+        "neutral-300": "#D1D5DB",
         "neutral-700": "#374151",
         "neutral-500": "#6B7280",
         "neutral-900": "#111827",

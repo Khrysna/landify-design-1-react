@@ -16,15 +16,17 @@ const GetAppSection = () => {
             and complete tasks without procastinating. Stay on track and
             complete on time!
           </p>
-          <p className="mt-10 text-lg font-medium text-neutral-900">
-            Get the App
-          </p>
-          <div className="flex gap-3">
-            <img src={googleplay} className="h-[40px]" />
-            <img src={appstore} className="h-[40px]" />
+          <div className="flex flex-col items-center gap-y-4 md:items-start">
+            <p className="mt-10 text-lg font-medium text-neutral-900">
+              Get the App
+            </p>
+            <div className="flex flex-col items-start gap-3 md:flex-row">
+              <img src={googleplay} className="h-[40px]" />
+              <img src={appstore} className="h-[40px]" />
+            </div>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-between px-8 md:flex-row">
+        <div className="flex flex-col items-center justify-between md:flex-row md:px-8">
           <img src={mockup2} className="max-w-[232px] md:mb-[174px]" />
           <img src={mockup3} className="max-w-[260px] md:mt-[174px]" />
         </div>

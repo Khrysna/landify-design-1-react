@@ -1,8 +1,20 @@
 import React from "react";
+import { twMerge } from "tailwind-merge";
 
-const TextButton = ({ children }: { children: React.ReactNode }) => {
+const TextButton = ({
+  children,
+  className,
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) => {
   return (
-    <button className="flex items-center px-6 py-4 text-base font-semibold text-primary-600">
+    <button
+      className={twMerge(
+        className,
+        "flex items-center px-6 py-4 text-base font-semibold text-primary-600",
+      )}
+    >
       {children}
     </button>
   );

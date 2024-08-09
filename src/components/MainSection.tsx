@@ -23,7 +23,7 @@ const navigations: Array<NavigationBarProps> = [
 const MainSection = () => {
   return (
     <>
-      <div className="max-container padding-container flex flex-col">
+      <div className="max-container padding-container flex flex-col lg:h-screen">
         <Navbar className="z-10" />
         <div className="z-10 flex flex-col gap-8 lg:flex-row lg:py-[72px]">
           <InstructionSection />
@@ -66,7 +66,7 @@ function Navbar({ className }: { className?: string }) {
 
 const InstructionSection = () => {
   return (
-    <div className="flex flex-col py-10 pr-12 md:py-20 lg:w-[55%] lg:py-24">
+    <div className="flex flex-col py-10 pr-12 md:py-20 lg:py-24">
       <h1 className="text-4xl font-bold leading-tight -tracking-wide text-neutral-900 md:text-5xl lg:text-6xl">
         The easiest way to manage projects
       </h1>
@@ -74,9 +74,9 @@ const InstructionSection = () => {
         From the small stuff to the big picture, organizes the work so teams
         know what to do, why it matters, and how to get it done.
       </p>
-      <div className="mt-8 flex gap-4">
-        <FilledButton>Get Started</FilledButton>
-        <TextButton>
+      <div className="mt-8 flex flex-wrap gap-4">
+        <FilledButton className="w-full sm:w-auto">Get Started</FilledButton>
+        <TextButton className="w-full justify-center sm:w-auto">
           <FiPlayCircle size={24} className="mr-2 text-primary-600" /> Watch
           Video
         </TextButton>
@@ -87,8 +87,8 @@ const InstructionSection = () => {
 
 const MockupSection = () => {
   return (
-    <div className="mx-20 self-center">
-      <img src={mockup} className="h-[640px] w-[320px]" />
+    <div className="self-center lg:mx-20">
+      <img src={mockup} className="sm:max-h-[640px] sm:max-w-[320px]" />
     </div>
   );
 };

@@ -4,6 +4,8 @@
 
 This project is a React implementation of the Landify Landing Page UI Kit. The UI design was provided by the Figma community and has been sliced and converted into a functional web application using React.
 
+> **Note:** This is my learning project to explore website development and React.
+
 ## 🌐 Live Demo
 
 You can access the live demo [here](https://landify-design-1-react.vercel.app).

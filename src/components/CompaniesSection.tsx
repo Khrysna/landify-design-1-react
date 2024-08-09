@@ -1,4 +1,3 @@
-import React from "react";
 import airbnb from "../assets/logo-airbnb.png";
 import hubspot from "../assets/logo-hubspot.png";
 import google from "../assets/logo-google.png";
